@@ -4,6 +4,7 @@ class SearchBar extends React.Component {
 
     state = { term: '' };
 
+    // passing an arrow function automatically binds 'this'
     onFormSubmit = (e) => {
         // prevents default form behavior of submitting itself when user presses Enter button
         e.preventDefault();
