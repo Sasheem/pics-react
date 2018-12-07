@@ -18,7 +18,6 @@ class SearchBar extends React.Component {
                 <form onSubmit={this.onFormSubmit} className="ui form">
                     <div className="field">
                         <label>Image Search</label>
-                        {/* leaving () means this is a callback function */}
                         <input 
                             type="text" 
                             value={this.state.term} 
